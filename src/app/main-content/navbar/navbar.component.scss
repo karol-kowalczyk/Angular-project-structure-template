@@ -1,0 +1,26 @@
+nav {
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        gap: 13%;
+
+        a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+
+    img {
+        height: 64px;
+        width: 64px;
+    }
+}

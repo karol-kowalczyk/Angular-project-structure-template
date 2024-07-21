@@ -1,0 +1,64 @@
+section {
+    background-image: url(../../../../public/assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+    display: flex;
+    background-position: 50% 50%;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: 120px 0px 64px 0px;
+    color: red;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 56px;
+    margin: 0;
+}
+
+img {
+    height: 352px;
+    width: 352px;
+}
+
+.information-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.food-information-div {
+    display: flex;
+    gap: 128px;
+}
+
+.tonkotsu-img {
+    margin-right: 80px;
+    margin-bottom: 56px;
+}
+
+.spice-imso-img {
+    margin-left: 80px;
+    margin-bottom: 56px;
+}
+
+.shio-img {
+    margin-right: 80px;
+    margin-bottom: 120px;
+}
+
+p {
+    font-size: 32px;
+    font-weight: bold;
+    color: grey;
+    margin: 8px 0 0 0;
+}
+
+.information-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

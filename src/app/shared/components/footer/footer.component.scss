@@ -1,0 +1,22 @@
+section {
+    background-color: #0A141E;
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 64px;
+}
+
+.slogan-and-logo {
+    img {
+        height: 44px;
+    }
+}
+
+.social-media-logos {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    img {
+        height: 40;
+        width: 40px;
+    }
+}
