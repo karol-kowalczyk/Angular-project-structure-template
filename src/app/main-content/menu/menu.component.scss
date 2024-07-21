@@ -7,6 +7,11 @@
     align-items: $aItemsVar;
 }
 
+@mixin dFlex($jc: center,) {
+    display: flex;
+    justify-content: $jc;
+}
+
 section {
     background-image: url(../../../../public/assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
     display: flex;
@@ -34,9 +39,8 @@ img {
 }
 
 .information-div {
-    display: flex;
+    @include dFlex($jc:flex-end);
     width: 100%;
-    justify-content: center;
 }
 
 .food-information-div {
