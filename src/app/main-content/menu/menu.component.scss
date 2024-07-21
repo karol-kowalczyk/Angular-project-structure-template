@@ -1,12 +1,19 @@
 @import '../../../styles.scss';
+@mixin bgPosition() {
+    background-position: 100%;
+}
+
+@mixin allignItems($aItemsVar) {
+    align-items: $aItemsVar;
+}
 
 section {
     background-image: url(../../../../public/assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
     display: flex;
-    background-position: 50% 50%;
+    @include bgPosition();
     background-size: cover;
     flex-direction: column;
-    align-items: center;
+    @include allignItems(center);
 }
 
 h1 {
