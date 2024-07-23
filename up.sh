@@ -6,7 +6,7 @@ git push
 # if permission is denied on Macbook, do that:
 
 
-# You can open the terminal (press Ctrl + Alt + T) and cd to the target directory:
+# You can open the terminal (press Ctrl + Alt + T) and cd to the target the right directory:
 
 # cd /path/to/target
 # To give the file "the_file_name" execute permission (if the file-system allows you with the RW rights):
